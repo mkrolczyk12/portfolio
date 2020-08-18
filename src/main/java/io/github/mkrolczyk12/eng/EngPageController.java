@@ -1,4 +1,4 @@
-package io.github.mkrolczyk12.pl;
+package io.github.mkrolczyk12.eng;
 
 import io.github.mkrolczyk12.exceptionHandler.GeneralExceptionsProcessing;
 import org.slf4j.Logger;
@@ -11,18 +11,19 @@ import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
 @GeneralExceptionsProcessing
-@RequestMapping(path = "/pl")
-public class PageController {
-    private static final Logger logger = LoggerFactory.getLogger(PageController.class);
+@RequestMapping(path = "/en")
+public class EngPageController {
+    private static final Logger logger = LoggerFactory.getLogger(EngPageController.class);
 
     @GetMapping(produces = MediaType.TEXT_HTML_VALUE)
     public String getPage() {
-        logger.info("Got request for PL page version");
-        return "index.html";
+        logger.info("Got request for EN page version");
+        return "index.en.html";
     }
 
     @GetMapping(path = "/**", produces = MediaType.TEXT_HTML_VALUE)
-    public RedirectView redirectToPolishPage() {
-        return new RedirectView("/pl");
+    public RedirectView redirectToEnglishPage() {
+        return new RedirectView("/en");
     }
+
 }
