@@ -7,10 +7,12 @@ My personal portfolio.
 - [Status](#status)
 - [Contact](#contact)
 
-## Technologies and dependencies
+## Main technologies and dependencies
 ### Backend
+- Java
 - Spring 5
 - Spring boot 2
+- Apache maven
 ### Frontend
 - Html 5
 - Css 3
