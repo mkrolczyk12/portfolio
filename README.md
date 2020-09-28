@@ -1,2 +1,30 @@
 # Portfolio
-My portfolio.
+My personal portfolio.
+
+## Table of contents
+
+- [Technologies and dependencies](#technologies-and-dependencies)
+- [Status](#status)
+- [Contact](#contact)
+
+## Technologies and dependencies
+### Backend
+- Spring 5
+- Spring boot 2
+### Frontend
+- Html 5
+- Css 3
+- Bootstrap 4
+- jQuery
+
+## Status
+
+_completed_
+
+## Contact
+
+Created by @mkrolczyk12 - feel free to contact me!
+
+- Phone: (48) 503 699 962
+- E-mail: m.krolczyk66@gmail.com
+
