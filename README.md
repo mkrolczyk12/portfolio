@@ -1,7 +1,5 @@
-# Portfolio
+# https://marcinkrolczyk.herokuapp.com
 My personal portfolio.
-
-# Link: https://marcinkrolczyk.herokuapp.com
 
 ## Table of contents
 
