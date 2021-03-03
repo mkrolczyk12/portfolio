@@ -7,7 +7,7 @@
         <meta name="keywords" content="portfolio, business-card, about, Marcin Krolczyk, offer, freelancer, freelancing "/>
         <meta name="author" content="Marcin Królczyk" />
         <title>Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favIcon.jpg">
+        <link rel="icon" type="image/x-icon" href="assets/img/favIcon.png">
         <!-- CSS (Bootstrap + own properties)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Font Awesome -->
@@ -76,7 +76,6 @@
                         <li class="list-inline-item"><i class="fab fa-java" title="Java 11"></i></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/spring.jpg" class="techLogo" title="Spring 5"></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/spring-boot.jpg" class="techLogo" title="Spring Boot 2"></li>
-<!--                        <li class="list-inline-item"><i class="fab fa-python" title="Python 3"></i></li>-->
                         <li class="list-inline-item"><img src="assets/img/techlogo/mysql.jpg" class="techLogo" title="mySql"></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/hibernate.jpg" class="techLogo" title="Hibernate framework"></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/junit5.jpg" class="techLogo" title="jUnit5"></li>
@@ -88,6 +87,7 @@
                         <li class="list-inline-item"><i class="fab fa-css3-alt" title="Css 3"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square" title="JavaScript (ES6)"></i></li>
                         <li class="list-inline-item"><i class="fab fa-react" title="React.js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass" title="Sass"></i></li>
                         <li class="list-inline-item"><i class="fab fa-bootstrap" title="Bootstrap 4"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js" title="Node.js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm" title="Node Package Manager"></i></li>
@@ -101,7 +101,6 @@
                         <li class="list-inline-item"><i class="fab fa-linux" title="Linux Ubuntu"></i></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/inteliJ.jpg" class="techLogo" title="InteliJ IDEA"></li>
                         <li class="list-inline-item"><img src="assets/img/techlogo/visualStudio.jpg" class="techLogo" title="Visual Studio Code"></li>
-                        <li class="list-inline-item"><img src="assets/img/techlogo/pycharm.jpg" class="techLogo" title="PyCharm"></li>
                     </ul>
                     <div class="subheading mb-3">Inne</div>
                     <ul class="fa-ul mb-0">
@@ -109,14 +108,6 @@
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             Podstawowa znajomość wzorców projektowych
                         </li>
-<!--                        <li>-->
-<!--                            <span class="fa-li"><i class="fas fa-check"></i></span>-->
-<!--                            Znajomość najpopularniejszych algorytmów-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="fa-li"><i class="fas fa-check"></i></span>-->
-<!--                            Python 3-->
-<!--                        </li>-->
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             Język angielski (B2)
@@ -223,6 +214,28 @@
                     <h2 class="mb-5">Wybrane projekty</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Zakład stolarski</h3>
+                            <div class="subheading mb-3">Strona prezentująca ofertę firmy stolarskiej</div>
+                            <div>
+                                Aplikacja stworzona od zera w oparciu o framework gatsby.js. Głównym celem strony jest
+                                prezentacja oferty firmy. Serwis połączony jest z tzw. headless CMS, dzięki któremu właściciele
+                                w każdej chwili mogą zmieniać uzgodniony wcześniej zakres zawartości strony (zdjęcia, opisy itp.).
+                                Gdy właściciel serwisu zmieni treść, serwis zostanie automatycznie przebudowany bez konieczności
+                                interwencji programisty. Do aplikacji dołączony jest również system powiadomień (po wysłaniu przez
+                                klienta wypełnionego formularza właściciel otrzyma powiadomienie e-mailem). Strona jest w pełni
+                                responsywna, przygotowana na 6 typów szerokości ekranu. Głównie wykorzystane technologie: Gatsby.js,
+                                React.js, Html5, Sass, Css3, Webpack, Npm. Aplikacja została wdrożona na platformie Netlify
+                                oraz przekazana właścicielom. <br/>
+                            </div>
+                            <p><b>Więcej informacji na temat aplikacji można znaleźć klikając w linki poniżej:</b></p>
+                            <p>
+                                <a href="https://github.com/mkrolczyk12/zaklad-stolarski" target="_blank" title="Github repository"><i class="fab fa-github"></i></a>
+                                <a href="https://zaklad-stolarski.netlify.app/" target="_blank" title="Link do strony"><i class="fas fa-external-link-alt"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Money App</h3>
                             <div class="subheading mb-3">Monitoruj wydatki, kalkuluj dochody, bądź świadomy finansowo!</div>
                             <div>
@@ -237,20 +250,6 @@
                             <p>
                                 <a href="https://github.com/mkrolczyk12/organizationApp" target="_blank" title="Github repository - backend"><i class="fab fa-github"></i></a>
                                 <a href="https://github.com/mkrolczyk12/organizationAppFE" target="_blank" title="Github repository - frontend"><i class="fab fa-github"></i></a>
-<!--                                <a href="#" target="_blank" title="Application"><i class="fas fa-external-link-alt"></i></a>-->
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">File sort</h3>
-                            <div class="subheading mb-3">Masz "milion" nieposortowanych zdjęć na telefonie lub innym urządzeniu bo nie zgrywałeś ich od kilku lat?</div>
-                            <div>
-                                Wykorzystaj przygotowany przeze mnie skrypt sortujący najpopularniejsze pliki multimedialne. <br/>
-                                W efekcie otrzymasz posortowane pliki według daty ich wykonania :)
-                            </div>
-                            <p>
-                                <a href="https://github.com/mkrolczyk12/file_sort_script" target="_blank" title="Github repository"><i class="fab fa-github"></i></a>
                             </p>
                         </div>
                     </div>
@@ -260,7 +259,7 @@
                             <div class="subheading mb-3">Moja wizytówka</div>
                             <div>Strona, na której właśnie się znajdujesz :)</div>
                             <p>
-                                <a href="https://github.com/mkrolczyk12/file_sort_script" target="_blank" title="Github repository"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/mkrolczyk12/portfolio" target="_blank" title="Github repository"><i class="fab fa-github"></i></a>
                             </p>
                         </div>
                     </div>
